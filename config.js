@@ -10,8 +10,8 @@ global.email = 'textnow1pak@gmail.com'
 global.github = 'https://github.com/naveeddogar/KING-MD'
 global.location = 'pakistan'
 global.gurl = 'https://instagram.com/naveeddogar_' // add your username
-global.sudo = process.env.SUDO || '923096566451'
-global.devs = '923096566451';
+global.sudo = process.env.SUDO || '94713317339'
+global.devs = '94713317339';
 global.website = 'https://github.com/naveeddogar/KING-MD' // Hello world
 global.THUMB_IMAGE = process.env.THUMB_IMAGE || 'https://telegra.ph/file/a6b9bbde7feaa92c69c7b.jpg'
 module.exports = {
@@ -52,7 +52,7 @@ module.exports = {
 let file = require.resolve(__filename)
 fs.watchFile(file, () => {
 	fs.unwatchFile(file)
-	console.log(`Update'${__filename}'`)
+	console.log(`Update'${__filename}'💬`)
     delete require.cache[file]
 	require(file)
 })
